@@ -43,10 +43,6 @@ swr-template-detector/
 `-- tests/test_detector.py               # Synthetic sanity tests
 ```
 
-There is **no dependency** on `ac_baseObjects`, `ac_baseFunctions`,
-`vBaseFunctions3`, `ac_vlds_swr_copy`, your original directories, clinical
-metadata, `swrs_summary_df.pkl`, Isomap or K-means.
-
 ## Install and run the 20-minute demonstration
 
 Python 3.10+ recommended.
