@@ -33,15 +33,8 @@ recalculate them**.
 swr-template-detector/
 |-- general_swr_detection_with_loader.py   # Single standalone script: inputs, functions, example
 |-- demo_ripple_templates.npz             # Synthetic templates for runnable demonstration ONLY
-|-- requirements.txt                      # NumPy, SciPy
 |-- README.md
 |-- CITATION.md
-|-- LICENSE-NOTICE.md                   # Choose an authorized license before release
-|-- .gitignore
-|-- .github/workflows/tests.yml
-|-- examples/
-|   |-- use_own_lfp.py                    # Real-array integration example (edit paths)
-|   `-- load_and_rethreshold.py           # Load saved candidates at new thresholds
 |-- docs/
 |   |-- METHODS_AND_IMPLEMENTATION.md     # Paper-to-implementation method and differences
 |   |-- QUICK_CROSSWALK.md                # Short original-to-new guide
